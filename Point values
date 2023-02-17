@@ -1,0 +1,11 @@
+#include<stdio.h>
+main()
+{
+float i;
+i=1.10;
+while(i<=2.00)
+{
+printf("%.2f\n",i);
+i=i+0.10;
+}
+}
